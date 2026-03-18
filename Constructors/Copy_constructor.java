@@ -9,7 +9,7 @@ public class Copy_constructor {
 		this.name=name;
 		this.id=id;
 		
-		System.out.println("name :"+name+"id :"+id);
+		System.out.println("name :"+name+"id :"+id);   
 	}
 	
 	Copy_constructor(Copy_constructor obj){
@@ -17,6 +17,8 @@ public class Copy_constructor {
 		this.id=id;
 	}
 
+	
+	   
 	public static void main(String[] args) {
 		
 		System.out.println("first :");

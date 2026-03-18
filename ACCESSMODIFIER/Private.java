@@ -8,7 +8,7 @@ class Person {
     void setName(String n){
         name = n;
     }
-
+ 
     void showName(){
         System.out.println(name);
     }
