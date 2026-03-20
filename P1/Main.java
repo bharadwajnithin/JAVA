@@ -3,21 +3,32 @@ package P1;
 //Tic-Tac-Toe Game
 import java.util.*;
 
-class Main {
-    int id = 10;
+interface cl{
+	public int i=10;
+	 void display ();
+	 
+}
 
-    public String toString() {
-        return "Student ID: " + id;
-    }
-    
+class test implements cl{
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("number is "+i);
+	}
+	
+}
+
+class Main { 
     
     
     
     public static void main(String[] args) {
-        Main  s = new Main();
-        System.out.println(s);
-        // automatically calls toString()
         
+    	test t =new test();
+    	t.display();
         
     }
 }
