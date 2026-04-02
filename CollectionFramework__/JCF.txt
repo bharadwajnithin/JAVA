@@ -1,0 +1,47 @@
+Here is the **Java Collection Framework** clearly organized in a **clean table format** (easy for exams + revision):
+
+---
+
+## 📊 Java Collection Framework (JCF)
+
+| **Framework Part** | **Interface** | **Class**     | **Ordering**    | **Duplicates**   | **Key Feature**             |
+| ------------------ | ------------- | ------------- | --------------- | ---------------- | --------------------------- |
+| **List**           | List          | ArrayList     | Maintains order | Allowed          | Dynamic array, fast access  |
+|                    |               | LinkedList    | Maintains order | Allowed          | Fast insertion/deletion     |
+|                    |               | Vector        | Maintains order | Allowed          | Thread-safe (slow)          |
+|                    |               | Stack         | LIFO order      | Allowed          | Last-In-First-Out           |
+| **Set**            | Set           | HashSet       | No order        | Not allowed      | Fast, uses hashing          |
+|                    |               | LinkedHashSet | Insertion order | Not allowed      | Maintains order             |
+|                    |               | TreeSet       | Sorted order    | Not allowed      | Stores sorted elements      |
+| **Queue**          | Queue         | PriorityQueue | Priority-based  | Allowed          | Elements sorted by priority |
+|                    |               | ArrayDeque    | FIFO/LIFO       | Allowed          | Faster than Stack           |
+| **Map**            | Map           | HashMap       | No order        | Keys not allowed | Key-value pairs             |
+|                    |               | LinkedHashMap | Insertion order | Keys not allowed | Ordered map                 |
+|                    |               | TreeMap       | Sorted keys     | Keys not allowed | Sorted map                  |
+|                    |               | Hashtable     | No order        | Keys not allowed | Thread-safe                 |
+
+---
+
+## 📌 Quick Summary Table
+
+| **Type** | **Best Use Case**  | **Example**       |
+| -------- | ------------------ | ----------------- |
+| List     | Store ordered data | Student list      |
+| Set      | Remove duplicates  | Unique IDs        |
+| Queue    | Processing tasks   | Ticket system     |
+| Map      | Key-value data     | Student ID → Name |
+
+---
+
+## 🧠 One-Line Memory Trick
+
+| **Type** | **Remember Like This** |
+| -------- | ---------------------- |
+| List     | Ordered + Duplicate    |
+| Set      | No Duplicate           |
+| Queue    | FIFO                   |
+| Map      | Key → Value            |
+
+---
+
+If you want, I can also give a **diagram hierarchy (very important for exams)** or **Java code examples for each** 👍
