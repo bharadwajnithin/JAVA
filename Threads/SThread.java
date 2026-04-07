@@ -2,10 +2,10 @@ package Threads;
 
 
 
-class thread extends Thread {
+class cooking extends Thread {
 	private String task;
 	
-	thread(String task){
+	cooking(String task){
 		this.task=task;
 		
 	}
@@ -18,12 +18,12 @@ class thread extends Thread {
 public class SThread {
 	
 	public static void main(String[]args) {
-		thread t=new thread("pasta");
-		thread t1=new thread("pizza");
-		thread t2=new thread("dose");
-		thread t3=new thread("rice");
-		thread t4=new thread("samber");
-		thread t5=new thread("idly");
+		cooking t=new cooking("pasta");
+		cooking t1=new cooking("pizza");
+		cooking t2=new cooking("dose");
+		cooking t3=new cooking("rice");
+		cooking t4=new cooking("samber");
+		cooking t5=new cooking("idly");
 		
 		t.start();
 		t1.start();
