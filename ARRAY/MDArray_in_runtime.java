@@ -31,7 +31,7 @@ public class MDArray_in_runtime {
 		}
 	}
 }
-
+   
 /*
 Example Input:
 enter the nu of rows:
