@@ -24,7 +24,7 @@ public class Copy_constructor {
 		System.out.println("first :");
 		Copy_constructor ob=new Copy_constructor("nithin ",403);
 		
-		System.out.println("second or copy ");
+		System.out.println("second or copy ");   
 		Copy_constructor obj=new Copy_constructor(ob);
 	}
 
