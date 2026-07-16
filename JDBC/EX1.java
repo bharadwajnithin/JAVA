@@ -12,7 +12,7 @@ public class EX1 {
 	                "root",
 	                "Nithin@2005"
 	            );
-
+    
 	            System.out.println("Connection Successful!");
 
 	            con.close();
