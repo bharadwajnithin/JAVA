@@ -6,7 +6,7 @@ public class Static {
 	        System.out.println("Static Method");
 	    }
 
-	    public static void main(String[] args) {
+	    public static void main(String[] args) {  
 
 	        Static.show(); // calling static method
 
