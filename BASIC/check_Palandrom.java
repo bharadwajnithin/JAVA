@@ -29,7 +29,7 @@ public class check_Palandrom {
 /*
 Example Output 1:
 Input String: nin
-PALANDROM
+PALANDROM 
 reverts string isd nin
 
 Example Output 2:
