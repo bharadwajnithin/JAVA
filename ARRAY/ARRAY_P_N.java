@@ -10,7 +10,7 @@ public class ARRAY_P_N {
 			int a=arr.length;
 			int p[] = new int[arr.length];
 			int n[]= new int[arr.length];
-			int pc=0;
+			int pc=0;      
 			int nc=0;
 			
 			
