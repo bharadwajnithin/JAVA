@@ -9,7 +9,7 @@ public class Operators {
 		//1. Arithmetic Operators [ +,-,/,*,%]
 		
 		//2. Unary Operators
-			
+			    
 		  // Integer declared
         int a = 200;
         int b = 10;
