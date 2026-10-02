@@ -1,7 +1,7 @@
 package Constructors;
 
 public class Parameterized_Constructor {
-
+// Instance variables to store object data
 	String name;
 	int id;
 	
